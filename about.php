@@ -3,7 +3,7 @@
 <section class="sobre-mi">
     <h2>Sobre mí</h2>
     <div class="sobre-mi-contenido">
-        <img src="img/perfil.webp" alt="Foto de perfil" class="perfil-img">
+        <img src="img/perfil.jpg" alt="Foto de perfil" class="perfil-img">
         <div class="texto">
             <p>
                 Soy <strong>David</strong>, desarrollador web apasionado por crear soluciones digitales modernas y funcionales. 
@@ -23,3 +23,4 @@
 </section>
 
 <?php include 'includes/footer.php'; ?>
+
