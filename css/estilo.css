@@ -1,0 +1,439 @@
+/* =========================
+   RESET BÁSICO
+   ========================= */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #f4f4f4, #eaeaea);
+    color: #333;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+    color: #ff9800;
+    transform: scale(1.1);
+}
+
+/* =========================
+   MAIN
+   ========================= */
+main {
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* =========================
+   HERO SECTION
+   ========================= */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #ff9800, #e68900);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #222;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background: #333;
+    transform: scale(1.05);
+}
+
+/* =========================
+   PROYECTOS
+   ========================= */
+.proyectos {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.proyectos h2 {
+    margin-bottom: 20px;
+}
+
+.proyectos .galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.proyectos .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proyectos .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.proyectos .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   HABILIDADES
+   ========================= */
+.habilidades-slider {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.habilidades-slider h2 {
+    margin-bottom: 20px;
+    color: #ff9800;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+    height: 200px; /* altura fija para centrar mejor */
+}
+
+/* Estilo base de cada slide */
+.slide {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(0.8);
+    width: 70%;
+    background: #ff9800;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+/* Slide activa (centrada) */
+.slide.active {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+    z-index: 2;
+}
+
+/* Slide anterior (izquierda) */
+.slide.prev {
+    opacity: 0.5;
+    transform: translateX(-150%) scale(0.8);
+    z-index: 1;
+}
+
+/* Slide siguiente (derecha) */
+.slide.next {
+    opacity: 0.5;
+    transform: translateX(50%) scale(0.8);
+    z-index: 1;
+}
+
+/* Botones de navegación */
+.slider-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.slider-buttons button {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.6);
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.slider-buttons button:hover {
+    color: #ff9800;
+    transform: scale(1.2);
+}
+
+
+/* =========================
+   CONTACTO RÁPIDO
+   ========================= */
+.contacto-rapido {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   FORMULARIO
+   ========================= */
+.form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 350px;
+    margin: 30px auto;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.form:hover {
+    transform: translateY(-5px);
+}
+
+.form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input,
+.form textarea,
+.form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form input:focus,
+.form textarea:focus,
+.form select:focus {
+    border-color: #ff9800;
+    box-shadow: 0 0 8px rgba(255,152,0,0.5);
+    outline: none;
+}
+
+.form button {
+    padding: 12px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.form button:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+footer {
+    background: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 25px 15px;
+    font-size: 14px;
+    position: relative;
+    margin-top: 40px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 15px auto;
+}
+
+.footer-social img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgb(249, 249, 249);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.footer-social img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+footer a {
+    color: #ff9800;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* =========================
+   ANIMACIONES
+   ========================= */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .proyectos .card {
+        width: 90%;
+    }
+
+    .habilidades li {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    .footer-social {
+        flex-direction: column; /* iconos en columna en móviles */
+    }
+}
+
+/* =========================
+   MODO OSCURO AUTOMÁTICO
+   ========================= */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #121212;
+        color: #eee;
+    }
+
+    header, footer {
+        background: #111;
+        color: #eee;
+    }
+
+    .form, .proyectos .card, .contacto-rapido {
+        background: #1e1e1e;
+        color: #eee;
+        box-shadow: 0 4px 10px rgba(255,255,255,0.1);
+    }
+
+    .habilidades li {
+        background: #333;
+        color: #ff9800;
+    }
+
+    nav a {
+        color: #ff9800;
+    }
+
+    nav a:hover {
+        color: #fff;
+    }
+}
+
+/* =================
+   about me section
+   ================= */
+
+
+
+.sobre-mi {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre-mi h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #ff9800;
+}
+
+.sobre-mi-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.perfil-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.sobre-mi .texto {
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
