@@ -36,7 +36,7 @@
                 <p>Sitio corporativo responsivo con HTML5, CSS3 y JavaScript.</p>
                 <p>proximamente</p>
             </div>
-            <a href="https://github.com/Miniquique/porfolio" target="_blank" class="card-link>
+            <a href="https://github.com/Miniquique/porfolio" target="_blank" class="card-link">
             <div class="card">
                 <!--<img src="img/proyecto3.webp" alt="Proyecto 3" class="img-small">-->
                 <h3>Proyecto 3</h3>
