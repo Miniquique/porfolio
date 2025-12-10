@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Proyecto PHP</title>
+    <title>Portfolio</title>
 </head>
 <body>
 <header>
-    <h1>Mi Proyecto PHP</h1>
+    <h1>David Guerrero Ortega</h1>
     <nav>
         <a href="index.php">Inicio</a>
         <a href="about.php">Sobre</a>
