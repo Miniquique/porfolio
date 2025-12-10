@@ -56,5 +56,41 @@ if ($_POST) {
     echo "<p style='text-align:center; margin-top:20px; color:green;'>Gracias, " . htmlspecialchars($_POST['nombre']) . ". Hemos recibido tu mensaje.</p>";
 }
 ?>
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Sanitizar datos
+    $nombre   = htmlspecialchars($_POST['nombre']);
+    $email    = htmlspecialchars($_POST['email']);
+    $telefono = htmlspecialchars($_POST['telefono']);
+    $asunto   = htmlspecialchars($_POST['asunto']);
+    $mensaje  = htmlspecialchars($_POST['mensaje']);
+
+    // Carpeta donde guardar los archivos (asegúrate de que exista y tenga permisos de escritura)
+    $directorio = __DIR__ . "/mensajes";
+
+    if (!is_dir($directorio)) {
+        mkdir($directorio, 0777, true); // crea la carpeta si no existe
+    }
+
+    // Nombre del archivo con fecha y hora
+    $fechaHora = date("Y-m-d_H-i-s");
+    $archivo = $directorio . "/mensaje_" . $email .$fechaHora . ".txt";
+
+    // Contenido del archivo
+    $contenido  = "Nombre: $nombre\n";
+    $contenido .= "Email: $email\n";
+    $contenido .= "Teléfono: $telefono\n";
+    $contenido .= "Asunto: $asunto\n";
+    $contenido .= "Mensaje:\n$mensaje\n";
+    $contenido .= "Enviado el: " . date("d/m/Y H:i:s") . "\n";
+
+    // Guardar archivo
+    file_put_contents($archivo, $contenido);
+
+    echo "<p style='text-align:center; margin-top:20px; color:green;'>Gracias, $nombre. Tu mensaje se ha guardado correctamente.</p>";
+}
+?>
+
+?>
 
 <?php include 'includes/footer.php'; ?>
