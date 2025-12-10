@@ -34,11 +34,13 @@
                 <h3>Proyecto 2</h3>
                 <p>Sitio corporativo responsivo con HTML5, CSS3 y JavaScript.</p>
             </div>
+            <a href="https://github.com/Miniquique/porfolio">
             <div class="card">
-                <img src="img/proyecto3.webp" alt="Proyecto 3" class="img-small">
+                <!--<img src="img/proyecto3.webp" alt="Proyecto 3" class="img-small">-->
                 <h3>Proyecto 3</h3>
                 <p>Portfolio personal con integración de formulario de contacto.</p>
             </div>
+            </a>
         </div>
     </section>
 
