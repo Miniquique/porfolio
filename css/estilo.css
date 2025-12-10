@@ -124,6 +124,16 @@ main {
     color: inherit; 
 }
 
+.card-link {
+    display: block;
+    text-decoration: none !important;
+    color: inherit !important;
+}
+.card-link h3,
+.card-link p {
+    text-decoration: none !important;
+    color: inherit !important;
+}
 
 /* =========================
    HABILIDADES
