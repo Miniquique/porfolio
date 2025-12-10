@@ -8,9 +8,6 @@ body {
     color: #333;
 }
 
-a{
-    text-decoration: none;
-}
 /* =========================
    HEADER
    ========================= */
@@ -121,8 +118,6 @@ main {
     border-radius: 8px;
     margin-bottom: 15px;
 }
-
-
 
 /* =========================
    HABILIDADES
