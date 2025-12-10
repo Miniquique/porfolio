@@ -1,6 +1,7 @@
 </main>
 <footer>
     <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+    <p>&copy; d.guerrerortega@gmail.com</p>
     
     <div class="footer-social">
         <a href="https:/www.linkedin.com/in/david-guerrero-ab7aa7297"><img src="img/linkedin.webp" alt="LinkedIn"></a>
