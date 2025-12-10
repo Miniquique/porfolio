@@ -122,6 +122,23 @@ main {
     margin-bottom: 15px;
 }
 
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.card-link h3,
+.card-link p {
+    text-decoration: none;
+    color: inherit;
+}
+
+.proyectos a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
 /* =========================
    HABILIDADES
    ========================= */
