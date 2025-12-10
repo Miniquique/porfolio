@@ -28,17 +28,20 @@
                 <!--<img src="img/proyecto1.webp" alt="Proyecto 1" class="img-small">-->
                 <h3>Proyecto 1</h3>
                 <p>Aplicación web para gestión de tareas con PHP y MySQL.</p>
+                <p>proximamente</p>
             </div>
             <div class="card">
                 <!--<img src="img/proyecto2.webp" alt="Proyecto 2" class="img-small">-->
                 <h3>Proyecto 2</h3>
                 <p>Sitio corporativo responsivo con HTML5, CSS3 y JavaScript.</p>
+                <p>proximamente</p>
             </div>
             <a href="https://github.com/Miniquique/porfolio" target="_blank">
             <div class="card">
                 <!--<img src="img/proyecto3.webp" alt="Proyecto 3" class="img-small">-->
                 <h3>Proyecto 3</h3>
                 <p>Portfolio personal con integración de formulario de contacto.</p>
+                <p></p>
             </div>
             </a>
         </div>
