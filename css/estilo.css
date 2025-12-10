@@ -119,6 +119,12 @@ main {
     margin-bottom: 15px;
 }
 
+.card-link {
+    text-decoration: none;
+    color: inherit; 
+}
+
+
 /* =========================
    HABILIDADES
    ========================= */
