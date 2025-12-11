@@ -89,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     echo "<p style='text-align:center; margin-top:20px; color:green;'>Gracias, $nombre. Tu mensaje se ha guardado correctamente.</p>";
 }
-?>
+
 
 ?>
 
