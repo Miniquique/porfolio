@@ -40,7 +40,7 @@
             <div class="card">
                 <!--<img src="img/proyecto3.webp" alt="Proyecto 3" class="img-small">-->
                 <h3>Proyecto 3</h3>
-                <p>Portfolio personal con integración de formulario de contacto.</p>
+                <p>Portfolio personal con integración de formulario de contacto, PHP, JavaScript y integracion con la api de telegram</p>
                 <p></p>
             </div>
             </a>
