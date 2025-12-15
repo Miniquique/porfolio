@@ -24,12 +24,14 @@
     <section class="proyectos">
         <h2>Mis proyectos</h2>
         <div class="galeria">
+           <a href="/proyectos/proyecto1.php" target="_blank" class="card-link">
             <div class="card">
-                <!--<img src="img/proyecto1.webp" alt="Proyecto 1" class="img-small">-->
+                <!--<img src="img/proyecto3.webp" alt="Proyecto 3" class="img-small">-->
                 <h3>Proyecto 1</h3>
-                <p>Aplicación web para gestión de tareas con PHP y MySQL.</p>
-                <p>proximamente</p>
+                <p>Validaciones JavaScript</p>
+                <p></p>
             </div>
+            </a>
             <div class="card">
                 <!--<img src="img/proyecto2.webp" alt="Proyecto 2" class="img-small">-->
                 <h3>Proyecto 2</h3>
