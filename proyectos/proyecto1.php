@@ -1,5 +1,6 @@
 <?php include('header.php'); ?>
 <main>
+    <link rel="stylesheet" href="../css/estilo.css">
     <!-- Título del proyecto -->
     <section class="hero">
         <h2>Validación avanzada de formularios con JavaScript</h2>
