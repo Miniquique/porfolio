@@ -28,8 +28,8 @@
             <div class="card">
                 <!--<img src="img/proyecto3.webp" alt="Proyecto 3" class="img-small">-->
                 <h3>Proyecto 1</h3>
-                <p>Validaciones JavaScript</p>
-                <p></p>
+                <p>Validaciones JavaScript con un formulario de inicio de sesion y un backend en php</p>
+                <p>click aqui</p>
             </div>
             </a>
             <div class="card">
@@ -43,7 +43,7 @@
                 <!--<img src="img/proyecto3.webp" alt="Proyecto 3" class="img-small">-->
                 <h3>Proyecto 3</h3>
                 <p>Portfolio personal con integración de formulario de contacto, PHP, JavaScript y integracion con la api de telegram</p>
-                <p></p>
+                <p>click aqui</p>
             </div>
             </a>
         </div>
@@ -78,3 +78,4 @@
 </main>
 
 <?php include './includes/footer.php'; ?>
+
