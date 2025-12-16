@@ -42,4 +42,4 @@
         <a href="https://github.com/Miniquique/Alta-de-usuario.git" target="_blank" class="btn">Ver en GitHub</a>
     </section>
 </main>
-<?php include('../includes/foother.php'); ?>
+<?php include('../includes/footer.php'); ?>
