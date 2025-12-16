@@ -37,7 +37,7 @@
 
     <!-- Botones -->
     <section style="text-align:center; margin:40px auto;">
-        <a href="ejemplo.html" class="btn">Ver Ejemplo</a>
+        <a href=".../Alta-de-usuario" class="btn">Ver Ejemplo</a>
         <a href="https://github.com/tuusuario/turepositorio" target="_blank" class="btn">Ver en GitHub</a>
     </section>
 </main>
