@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('../includes/header.php'); ?>
 <main>
     <link rel="stylesheet" href="../css/estilo.css">
     <!-- Título del proyecto -->
