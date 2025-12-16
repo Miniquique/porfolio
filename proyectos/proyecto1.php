@@ -38,7 +38,7 @@
 
     <!-- Botones -->
     <section style="text-align:center; margin:40px auto;">
-        <a href=".../Alta-de-usuario" class="btn">Ver Ejemplo</a>
+        <a href="../../Alta-de-usuario/index.html" class="btn">Ver Ejemplo</a>
         <a href="https://github.com/Miniquique/Alta-de-usuario.git" target="_blank" class="btn">Ver en GitHub</a>
     </section>
 </main>
