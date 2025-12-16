@@ -60,6 +60,7 @@
             <div class="slide">JavaScript & jQuery</div>
             <div class="slide">Responsive Design</div>
             <div class="slide">Git & GitHub</div>
+            <div class="slide">IA</div>
         </div>
     </div>
     <div class="slider-buttons">
@@ -78,4 +79,5 @@
 </main>
 
 <?php include './includes/footer.php'; ?>
+
 
